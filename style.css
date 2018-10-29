@@ -1,0 +1,18 @@
+body{
+ background-color: #ffffff;
+}
+
+.action{
+ /*
+ background-color: darkgoldenrod;
+ color: #000000;
+ */
+ display:inline-block;
+}
+
+.stat{
+ display:inline-block;
+ /*
+ float:left;
+ */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+ <link rel='stylesheet' href='style.css'/>
+ <meta charset='utf-8'/>
+ <title>DungeonRoulette</title>
+</head>
+<body onload="chooseGame()">    
+ 
+ <div id="log">
+  <h2>Log:</h2>
+  <p>
+   Welcome to the Dungeon Casino,
+   a miraculous place where patrons gamble with their very lives!
+   I can see you're new here, so I'll start you with 10 chips, or CP.
+   Use them to buy your way into salvation.
+   Remember that if you run out of CP, you'll be betting with HP;
+   your blood itself shall serve as currency.
+   Now then! What game would you like to start with today?
+   I recommend DUNGEON SLOTS for newcommers.
+  </p>
+ </div>
+
+ <hr/>
+
+ <div>
+  <h2>Actions:</h2>
+  <div id="actionList"></div>
+ </div>
+
+ <hr/>
+
+ <div id="stats">
+  <h2>Stats:</h2>
+  <p class="stat">HP:</p>
+  <p class="stat" id="hpDisplay">11</p>
+  <p class="stat">__</p>
+  <p class="stat">CP:</p>
+  <p class="stat" id="cpDisplay">10</p>
+  <p class="stat">__</p>
+  <p class="stat">EXP:</p>
+  <p class="stat" id="expDisplay">0</p>
+  <p class="stat">__</p>
+  <p class="stat">LV:</p>
+  <p class="stat" id="lvDisplay">1</p>
+  <p class="stat">__</p>
+  <p class="stat">Class:</p>
+  <p class="stat" id="classDisplay">Drifter</p>
+  <br/>
+  <p class="stat">GXP:</p>
+  <p class="stat" id="gxpDisplay">0</p>
+  <p class="stat">__</p>
+  <p class="stat">GLV:</p>
+  <p class="stat" id="glvDisplay">1</p>
+  <p class="stat">__</p>
+  <p class="stat">Game:</p>
+  <p class="stat" id="gameDisplay">none</p>
+ </div>
+
+ <hr/>
+
+</body>
+
+<script src="events.js"></script>
+<script src="actionList.js"></script>
+<script src="actions.js"></script>
+<script src="jobs.js"></script>
+<script src="character.js"></script>
+<script src="general.js"></script>
+<script src="stats.js"></script>
+
